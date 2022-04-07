@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>. Folio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="functions.js"></script>
     <link rel="icon" href="images/pasta.png" type="image/png">
 </head>
 <body>
@@ -16,7 +15,7 @@
         <div class="head">
             <img src="images/logo.png" alt="logo portfolio">
 
-            <nav>
+            <nav class="navbar-pc">
                 <ul>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -24,16 +23,35 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </div>
+
+            <div class="container-mobile">
+                <input type="checkbox" id="checkbox-menu">
+                <label for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>      
+            </div>
+        </div><!--head-->
+
+        <nav class="navbar-mobile" id="navbar">
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
         <section class="container">
             <div class="about-section">
                 <span class="ball"></span>
                 <h1><span>|</span> Desenvolvedor Front-end</h2>
                 <h2>Thiago Henrique</h2>
                 <p>Bem vindo(a) ao meu mundo. Aqui é onde mostro todas as minhas experiências e minha paixão, que é desenvolver. Bora trocar conhecimentos! </p>
-                <a href="CvThiagoHenrique.pdf" download="CvThiagoHenrique.pdf" type="application/pdf">My CV</a>
+                <a href="Thiagofidêncio.pdf">My CV</a>
             </div><!--about-section-->
-
+       
             <div class="imgs">
                 <img src="images/image-top.png" alt="imagem " class="image">
                 <img src="images/html.png" alt="logo html" class="html">
@@ -65,10 +83,9 @@
     <!--=========skills=======-->
 
     <section class="skills" id="skills">
-
+        
         <h2>Skills</h2>
-
-        <span class="ball3"></span>
+        
         <div class="vectors">
             <img src="images/vector.png" alt="vector" class="vector1">
             <img src="images/vector2.png" alt="vector"
@@ -82,12 +99,12 @@
 
                 <div class="box1">
                     <img src="images/trofeu.png" alt="troféu">
-                    <h3>1 year</h3>
+                    <h3>8 months</h3>
                 </div>
 
                 <div class="box2"> 
                     <img src="images/lista.png" alt="lista">
-                    <h3>15 projects</h3>
+                    <h3>12 projects</h3>
                 </div>
 
             </div><!--card1-->
@@ -98,7 +115,7 @@
 
                 <div class="box1">
                     <img src="images/trofeu.png" alt="troféu">
-                    <h3>4 mounts</h3>
+                    <h3>4 months</h3>
                 </div>
 
                 <div class="box2"> 
@@ -114,12 +131,12 @@
 
                 <div class="box1">
                     <img src="images/trofeu.png" alt="troféu">
-                    <h3>1 year</h3>
+                    <h3>8 months</h3>
                 </div>
 
                 <div class="box2"> 
                     <img src="images/lista.png" alt="lista">
-                    <h3>15 projects</h3>
+                    <h3>12 projects</h3>
                 </div>
             
             </div><!--card3-->
@@ -129,12 +146,10 @@
     <!--=========projects=======-->
 
     <section class="projects" id="projects">
-        <h2>Projects</h2>
+        <h2>Projects</h2> 
         <div class="vector3"><img src="images/vector.png" alt="">
         </div>
         <div class="gallery">
-
-           
 
             <div class="item">
                 <div class="balls">
@@ -241,12 +256,14 @@
 
     <section class="about" id="about">
         <h2>About me</h2>
-
+        <div class="vector-about">
+            <img src="images/vector.png" alt="">
+        </div>
         <div class="container">
             <div class="cardAbout"> 
                 <div class="aboutMe">
                     <h3>Thiago Henrique.</h3>
-                    <p>Olá, meu nome é Thiago Henrique. Sou apaixonado por desenvolvimento front-end e trabalho com isso há 1 ano.  Futuramente planejo me tornar um Full-stack developer.</p>
+                    <p>Olá, meu nome é Thiago Henrique. Sou apaixonado por desenvolvimento front-end e trabalho com isso há 8 meses.  Futuramente planejo me tornar um Full-stack developer.</p>
                     <ul>
                         <span></span><li>Front-end</li>
                         <!--<li>Backend</li>
@@ -262,16 +279,29 @@
         </div><!--container-->
     </section>
 
-
      <!--=====contact=========-->
+
     <section class="contact" id="contact">
         <h2>Contact</h2>
+
+        <div class="form">
+            <form action="https://formsubmit.co/ythiagohcfidencio@gmail.com" method="POST" id="form">
+            <h3>Entre em Contato</h3>
+            <input type="text" name="name" id="name" required placeholder="Nome:">
+            <input type="email" name="email" id="email" required placeholder="Email:">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/.folio/thanks.html">
+            <textarea name="message" id="textare" required placeholder="Mensagem:"></textarea>
+            </form>
+            <button form="form" type="submit" >Enviar</button> 
+        </div><!--form-->
+           
     </section>
 
      <!--=====footer=====-->
 
     <footer>
-        <img src="images/logo.png" alt="logo portfolio">
+
+        <img class="logo-footer" src="images/logo.png" alt="logo portfolio">
 
         <h2>Feito com 💜 por Thiago Henrique.</h2>
 
@@ -289,5 +319,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="functions.js"></script>
 </body>
 </html>
