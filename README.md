@@ -10,7 +10,7 @@
     <a href="#author">author</a> 
 </p>
 
-<<h4 align="center">🚧  This project is under construction . . .  🚧 </h4>
+<h4 align="center">🚧  This project is under construction . . .  🚧 </h4>
 <p align="center">Você pode ver o projeto<a href="https://ythiago03.netlify.app/"> clicando aqui!</a></p>
 # About
 
