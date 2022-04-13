@@ -16,7 +16,7 @@
 # About
 
 - A ideia deste projeto é criar um portfólio o mais parecido possível do projeto original(porém dei uma mudada para ficar com a minha cara🙂).
-- Você pode checar o projeto original <a href="https://github.com/lubomfim/work-plin">neste repositório.</a>
+- Você pode checar o projeto original <a href="https://github.com/ythiago03/portfolio-devs">neste repositório.</a>
 - Caso você encontre algum bug ou queira me dar alguma dica, fique a vontade para entrar em contato comigo neste email: ythiagohcfidencio@gmail.com
 # Technologies
 
