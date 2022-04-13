@@ -1,6 +1,6 @@
 <h1 align="center">.Folio</h1>
 
-<p align="center">Este projeto foi um desafio da devchallenge e também é o meu portfólio pessoal.</p>
+<p align="center">Este projeto foi um desafio da devchallenge e também é o meu portfólio pessoal.👨‍💻</p>
 
 <img src="https://user-images.githubusercontent.com/92443688/163187741-52969411-7a6d-4ff0-9db9-f2cfc76636a2.jpg">
 
