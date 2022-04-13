@@ -12,6 +12,7 @@
 
 <h4 align="center">🚧  This project is under construction . . .  🚧 </h4>
 <p align="center">Você pode ver o projeto<a href="https://ythiago03.netlify.app/"> clicando aqui!</a></p>
+
 # About
 
 - A ideia deste projeto é criar um portfólio o mais parecido possível do projeto original(porém dei uma mudada para ficar com a minha cara🙂).
