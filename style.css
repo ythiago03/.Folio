@@ -515,6 +515,7 @@ span{
 .imgBox{
     max-width: 340px;
     overflow: hidden;
+    height: 200px ;
 }
 
 .conteudo img:hover{
