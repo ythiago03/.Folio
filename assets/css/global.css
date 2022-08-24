@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 55px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color:var(--tertiary-color-black);
+    overflow-x: hidden;
+}
+
+:root{
+    --primary-color-green: #23BE53;
+    --secondary-color-gray: #333333;
+    --tertiary-color-black: #060608;
+    --text-color-gray: #E7DFDD;
+}
