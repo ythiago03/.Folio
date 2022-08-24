@@ -110,14 +110,27 @@ label span:nth-child(3){
 }
 
 .f-navbar__mobile{
-    position: relative;
-    height: 20vh;
+    position: absolute;
     background-color:var(--tertiary-color-black);
     align-items: center;
     justify-content: center;
-    display: none;
-    transition: 3s; 
+    visibility: hidden;
+    height: 0;
+    top: 171px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: hidden;
+    transition: all 300ms;
 }
+.open{
+    visibility: visible;
+    overflow-y: auto;
+    height: calc(100vh - 171px);    
+    transition: all 300ms;
+
+}
+
 
 .f-navbar__mobile ul {
     display: flex;
